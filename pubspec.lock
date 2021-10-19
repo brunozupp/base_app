@@ -98,16 +98,20 @@ packages:
   micro_app_login:
     dependency: "direct main"
     description:
-      path: "../micro_app_login"
-      relative: true
-    source: path
-    version: "0.0.1"
+      path: "."
+      ref: "v1.0.1"
+      resolved-ref: b77617a1ae1645004eee6d1de6d2920f5ef31e4f
+      url: "https://github.com/brunozupp/micro_app_login.git"
+    source: git
+    version: "1.0.1"
   micro_core:
     dependency: "direct main"
     description:
-      path: "../micro_core"
-      relative: true
-    source: path
+      path: "."
+      ref: "v1.0.0"
+      resolved-ref: cbf00e0aa5b16d04855915e3f9d70a86cbf00179
+      url: "https://github.com/brunozupp/micro_core.git"
+    source: git
     version: "0.0.1"
   path:
     dependency: transitive
